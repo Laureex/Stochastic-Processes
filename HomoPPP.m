@@ -5,4 +5,4 @@ lamstar = 600;
 N=poissrnd(lamstar); x = rand(N,2); % homogeneous PP
 ind = find(rand(N,1) < lambda/lamstar);
 xa = x(ind,:); % thinned PP
-plot(xa(:,1),xa(:,2))
+plot(xa(:,1),xa(:,2), '.');
