@@ -1,3 +1,4 @@
+% create a inhomogeneous Poisson Point Process
 lambda = @(x) 300*(x(:,1).^2 + x(:,2).^2);
 lamstar = 600;
 N=poissrnd(lamstar); x = rand(N,2); % homogeneous PP
